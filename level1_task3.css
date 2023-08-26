@@ -1,0 +1,62 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-image: url('cal.jpg');
+}
+html{
+  height: 100%;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+#i1{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border: -40px solid black;
+  border-radius: 50px;
+  background-color: rgba(211, 179, 179, 0.584);
+
+}
+#container{
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#row{
+   margin: 8px 0;
+    width: 291px;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+#input{
+  width: 285px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.button{
+  width: 60px;
+  padding: 10px;
+  margin: 0 3px;
+  border: 7px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#footer{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    border: -70px solid black;
+    border-radius: 70px;
+    background-color: rgba(211, 179, 179, 0.584);
+  
+  }
